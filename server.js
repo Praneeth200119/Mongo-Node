@@ -14,7 +14,7 @@ app.get('/api/products', async (req, res) => {
     client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
     app.get('/', (req, res) => {
-      res.send('Hello COMTEK, This is my NodeJS Application');
+      res.send('Hello NODE API');
     });
 
     // Connect to the MongoDB server
