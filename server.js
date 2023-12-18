@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 const port = 3000; // You can change the port number as needed
 
-const uri = 'mongodb+srv://svspraneeth2000:rcXkwrHNr32LOWJp@cluster0.jedv5qc.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB connection string
+const uri = 'mongodb+srv://saitarakaram:L2HwgE8VLais1o5l@cluster0.opravw6.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB connection string
 
 app.get('/api/products', async (req, res) => {
   let client; // Declare the client variable outside the try block
